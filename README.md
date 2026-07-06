@@ -14,14 +14,17 @@ This plugin is a focused extract of skills from [`claude-base`](https://github.c
 | `open-elements-brand-guidelines` | Brand colors, typography, logos, illustration style, and sample artifacts — including bundled TTF fonts, logo files, and sample decks. |
 | `support-and-care-info` | The Support & Care offering: supported Java components, business model, CRA compliance — including the logo and marketing flyer. |
 
-### Fullstack build conventions
+### Stack & build conventions
 
 | Skill | What it does |
 | --- | --- |
+| `project-setup` | Set up or review a project's baseline: project type, `.editorconfig`, repository setup, and routing to the right stack skill. |
 | `fullstack-architecture-setup` | Independent backend + frontend in one repo, wired via Docker Compose, with optional OAuth2/OIDC. |
 | `java-backend` | Java backend conventions: framework choice, feature-based packages, REST/OpenAPI, JPA/Flyway/PostgreSQL, GDPR, layer-specific testing. |
+| `java-best-practices` | General Java conventions: code style, build tools, testing idioms, logging, null handling, immutability, modules, SPI, async. |
 | `typescript-best-practices` | React/Next.js/Tailwind/shadcn stack, code style, testing, i18n, logging, error handling, and Next.js build pitfalls. |
 | `mkdocs-setup` | Project documentation with MkDocs + Material, published to GitHub Pages. |
+| `github-actions-setup` | CI/CD workflows (`build.yml`, `docs.yml`, `release-drafter.yml`) for Java, TypeScript, and fullstack projects. |
 
 `.mcp.json` ships two MCP servers used by these skills: **shadcn** (browse/install shadcn/ui components) and **maven-central** (look up Maven dependency versions).
 
@@ -40,7 +43,7 @@ Skills are **namespaced** under the plugin, e.g. `/agentic-support-open-elements
 
 ## A note on cross-references
 
-A few of the bundled skills point to companion skills that live in `claude-base` but are **not** shipped here — for example `java-best-practices` (general Java conventions), `project-setup`, `github-actions-setup`, and `eclipse-info`. Those references are intentional prose pointers. If you want the complete, self-referential set, install [`claude-base`](https://github.com/OpenElementsLabs/claude-base) as well.
+The `project-setup` skill points to `frontend-design`, which lives in `claude-base` but is **not** shipped here. That reference is an intentional prose pointer. If you want the complete, self-referential set, install [`claude-base`](https://github.com/OpenElementsLabs/claude-base) as well.
 
 ## Keeping up to date
 

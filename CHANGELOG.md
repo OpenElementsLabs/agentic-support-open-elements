@@ -10,6 +10,6 @@ All notable changes to this plugin are documented here. The format is based on
 
 - Initial release: Claude Code plugin scaffolded as a focused extract of `claude-base`.
 - Company & product knowledge skills: `open-elements-info`, `open-elements-brand-guidelines`, `support-and-care-info`.
-- Fullstack build convention skills: `fullstack-architecture-setup`, `java-backend`, `typescript-best-practices`, `mkdocs-setup`.
+- Stack & build convention skills: `project-setup`, `fullstack-architecture-setup`, `java-backend`, `java-best-practices`, `typescript-best-practices`, `mkdocs-setup`, `github-actions-setup`.
 - `conventions/software-quality.md`, referenced by the `java-backend` and `typescript-best-practices` skills.
 - `.mcp.json` shipping the `shadcn` and `maven-central` MCP servers.

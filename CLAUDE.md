@@ -26,14 +26,17 @@ The repository root is the plugin root (and the marketplace root).
 - `open-elements-brand-guidelines` — brand colors, typography, logos, illustration style, and sample artifacts.
 - `support-and-care-info` — the Support & Care offering: supported Java components, business model, CRA compliance.
 
-**Fullstack build conventions:**
+**Stack & build conventions:**
 
+- `project-setup` — set up or review a project's baseline: project type, `.editorconfig`, repository setup, routing to the right stack skill.
 - `fullstack-architecture-setup` — independent backend + frontend in one repo, wired via Docker Compose, optional OAuth2/OIDC.
 - `java-backend` — Java backend conventions: frameworks, package structure, REST/OpenAPI, JPA/Flyway, GDPR, testing.
+- `java-best-practices` — general Java conventions: code style, build tools, testing, logging, null handling, immutability, modules, SPI, async.
 - `typescript-best-practices` — React/Next.js/Tailwind/shadcn stack, code style, testing, i18n, error handling.
 - `mkdocs-setup` — project documentation with MkDocs + Material, published to GitHub Pages.
+- `github-actions-setup` — CI/CD workflows (`build.yml`, `docs.yml`, `release-drafter.yml`) for Java, TypeScript, and fullstack projects.
 
-Some skills reference companion skills that live in `claude-base` but are **not** bundled here (e.g. `java-best-practices`, `project-setup`, `github-actions-setup`, `eclipse-info`). Those references are intentional prose pointers; install `claude-base` for the full set.
+The `project-setup` skill references `frontend-design`, which lives in `claude-base` but is **not** bundled here. That reference is an intentional prose pointer; install `claude-base` for the full set.
 
 ## Distribution
 

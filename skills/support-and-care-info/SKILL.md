@@ -181,8 +181,6 @@ Support & Care helps with:
 - Guaranteeing long-term maintainability
 - Prospective support for CRA-compliant attestations for supported projects — based on best practices developed in the ORC WG
 
-See the `eclipse-info` skill (ORC WG section) for more details on the regulatory compliance work.
-
 ## Subscription Models
 
 Support & Care offers three subscription tiers — **Basic**, **Standard**, and **Premium** — selectable based on requirements for availability, compliance, and SLA.
