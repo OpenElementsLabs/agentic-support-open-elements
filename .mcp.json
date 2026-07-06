@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "shadcn": {
+      "command": "npx",
+      "args": ["shadcn@latest", "mcp"]
+    },
+    "maven-central": {
+      "command": "npx",
+      "args": ["mcp-maven-deps"],
+      "type": "stdio"
+    }
+  }
+}

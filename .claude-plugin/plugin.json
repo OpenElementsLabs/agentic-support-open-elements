@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "agentic-support-open-elements",
+  "displayName": "Open Elements Support",
+  "version": "0.1.0",
+  "description": "Claude Code plugin bundling Open Elements company and product knowledge (company profile, brand guidelines, Support & Care) together with the Open Elements fullstack build conventions: Java backends, TypeScript/Next.js frontends, fullstack architecture, and MkDocs documentation.",
+  "author": {
+    "name": "Open Elements",
+    "url": "https://open-elements.com"
+  },
+  "homepage": "https://github.com/OpenElementsLabs/agentic-support-open-elements",
+  "repository": "https://github.com/OpenElementsLabs/agentic-support-open-elements",
+  "license": "Apache-2.0",
+  "keywords": [
+    "open-elements",
+    "brand",
+    "company",
+    "support-and-care",
+    "java",
+    "typescript",
+    "nextjs",
+    "fullstack",
+    "mkdocs"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "open-elements-public",
+  "owner": {
+    "name": "Open Elements",
+    "email": "hendrik.ebbers@open-elements.com"
+  },
+  "description": "Open Elements marketplace for the Open Elements company- and stack-focused Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "agentic-support-open-elements",
+      "source": "./",
+      "description": "Claude Code plugin bundling Open Elements company and product knowledge (company profile, brand guidelines, Support & Care) together with the Open Elements fullstack build conventions: Java backends, TypeScript/Next.js frontends, fullstack architecture, and MkDocs documentation.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Open Elements"
+      },
+      "homepage": "https://github.com/OpenElementsLabs/agentic-support-open-elements",
+      "repository": "https://github.com/OpenElementsLabs/agentic-support-open-elements",
+      "license": "Apache-2.0",
+      "category": "productivity",
+      "keywords": [
+        "open-elements",
+        "brand",
+        "company",
+        "support-and-care",
+        "java",
+        "typescript",
+        "nextjs",
+        "fullstack",
+        "mkdocs"
+      ]
+    }
+  ]
+}
