@@ -44,7 +44,7 @@ The plugin is installed from inside Claude Code:
 
 ```
 /plugin marketplace add OpenElementsLabs/agentic-support-open-elements
-/plugin install agentic-support-open-elements@open-elements
+/plugin install agentic-support-open-elements@open-elements-public
 ```
 
 Skills are namespaced under the plugin, e.g. `/agentic-support-open-elements:java-backend`.
