@@ -10,7 +10,7 @@
       "name": "agentic-support-open-elements",
       "source": "./",
       "description": "Claude Code plugin bundling Open Elements company and product knowledge (company profile, brand guidelines, Support & Care) together with the Open Elements fullstack build conventions: Java backends, TypeScript/Next.js frontends, fullstack architecture, and MkDocs documentation.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Open Elements"
       },
