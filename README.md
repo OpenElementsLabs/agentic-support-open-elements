@@ -34,7 +34,7 @@ Install from inside Claude Code:
 
 ```
 /plugin marketplace add OpenElementsLabs/agentic-support-open-elements
-/plugin install agentic-support-open-elements@open-elements-public
+/plugin install agentic-support-open-elements@open-elements-company
 ```
 
 Then restart Claude Code (or run `/reload-plugins`).
@@ -50,7 +50,7 @@ The `project-setup` skill points to `frontend-design`, which lives in `claude-ba
 Because the plugin is versioned, updates arrive when the `version` in `plugin.json` is bumped. Pull the latest release with:
 
 ```
-/plugin marketplace update open-elements-public
+/plugin marketplace update open-elements-company
 ```
 
 ## Repository layout
